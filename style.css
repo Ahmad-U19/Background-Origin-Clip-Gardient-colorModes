@@ -1,0 +1,41 @@
+body{
+    background-color: gold;
+}
+h1{
+    color: transparent;
+    font-size: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(flower.jpg);
+    background-clip: text;
+    background-repeat: repeat;
+    background-size: contain;
+}
+#box{
+    width: 800px;
+    height: 400px;
+    padding-left: 11px;
+    padding-top: 15px;
+    background-image: url(flower.jpg);
+    border: 7px dotted black;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box;
+}
+
+#box2{
+    border: 2px solid black;
+    width: 400px;
+    background-color: rgb(137, 146, 94);
+    padding: 10px;
+    height: 300px;
+    background: linear-gradient(to top,red,blue);
+}
+
+#box3{
+    border: 2px solid black;
+    width: 400px;
+    border-radius: 20px;
+    padding: 15px;
+    height: 400px;
+    background: radial-gradient(red,yellow,green );
+}
